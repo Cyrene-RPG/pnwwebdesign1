@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pacific Northwest Web Design">
+  <title>Pacific Northwest Web Design</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="site-header container">
+    <div class="header-row">
+      <a class="brand" href="index.html">PNW Web Design</a>
+
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="pricing.html">Pricing</a>
+      </nav>
+    </div>
+
+    <div class="header-divider" aria-hidden="true">
+      <span class="divider-line"></span>
+      <svg viewBox="0 0 120 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M2 14h18c9 0 10-10 18-10 6 0 8 7 3 9-4 2-7-2-5-5
+             M118 14h-18c-9 0-10-10-18-10-6 0-8 7-3 9 4 2 7-2 5-5
+             M43 14c7 0 9 9 17 9s10-9 17-9
+             M43 14c7 0 9-9 17-9s10 9 17 9"
+          stroke="currentColor"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <circle cx="60" cy="14" r="2" fill="currentColor"/>
+      </svg>
+      <span class="divider-line"></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Pacific<br>Northwest<br>Web Design</h1>
+        <p>I’m an independent web designer and developer based in the Pacific Northwest. I work directly with each client, designing and building their site from start to finish.</p>
+      </div>
+
+      <div class="hero-visual">
+        <img
+          src="../images/hero.jpg"
+          alt="Computer workspace overlooking evergreen trees and water"
+        >
+      </div>
+    </section>
+
+    <section class="services container" id="about" aria-labelledby="services-title">
+      <div class="services-intro">
+        <h2 id="services-title">What I do</h2>
+        <p>I start by figuring out what the site needs to say and how people will use it. From there, 
+		I work through the design and build, using coding agents for some of the development work. 
+		I take on projects independently, so you’ll work with me through each stage.</p>
+      </div>
+
+      <div class="service-list">
+        <div class="service">
+          <span class="service-number">01</span>
+          <h3>Design</h3>
+          <p>I plan the layout and look of your site around your content and what visitors need to find.</p>
+        </div>
+
+        <div class="service">
+          <span class="service-number">02</span>
+          <h3>Development</h3>
+          <p>I build the site so it works well on phones, tablets, and larger screens.</p>
+        </div>
+
+        <div class="service">
+          <span class="service-number">03</span>
+          <h3>Collaboration</h3>
+          <p>Your input is key. We’ll go through the work together, with room for your feedback along the way.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,190 @@
+/* Order page */
+
+.order-page {
+  max-width: 1100px;
+  padding-block: 5rem 7rem;
+}
+
+.order-intro {
+  max-width: 720px;
+  margin-bottom: 4rem;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: #53725b;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.order-intro h1 {
+  margin-bottom: 1.5rem;
+  color: #315640;
+}
+
+.order-intro > p:last-child {
+  max-width: 610px;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.project-form {
+  border-top: 1px solid #bec9bc;
+}
+
+.project-form fieldset {
+  min-width: 0;
+  margin: 0;
+  padding: 2.5rem 0 3rem;
+  border: 0;
+  border-bottom: 1px solid #bec9bc;
+}
+
+.project-form legend {
+  float: left;
+  width: 100%;
+  margin-bottom: 2rem;
+  color: #315640;
+  font-family: "Libre Caslon Display", Georgia, serif;
+  font-size: 2.5rem;
+  letter-spacing: -0.04em;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  clear: both;
+}
+
+.form-field {
+  margin-bottom: 1.5rem;
+}
+
+.form-field label,
+.field-label {
+  display: block;
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.form-field label span {
+  color: #53725b;
+}
+
+.form-field input:not([type="radio"]),
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #aab9a9;
+  border-radius: 0;
+  background: #fffefa;
+  color: #202720;
+  font: inherit;
+}
+
+.form-field textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-field input:focus-visible,
+.form-field select:focus-visible,
+.form-field textarea:focus-visible {
+  outline: 2px solid #315640;
+  outline-offset: 2px;
+}
+
+.domain-field {
+  margin: 1rem 0 2rem;
+}
+
+.radio-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.radio-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.radio-options input {
+  accent-color: #315640;
+}
+
+.form-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 2.5rem;
+}
+
+.form-end p {
+  max-width: 480px;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.form-end button {
+  flex: none;
+  padding: 1rem 1.5rem;
+  border: 1px solid #315640;
+  background: #315640;
+  color: #f7f4ec;
+  font: inherit;
+  font-weight: 600;
+}
+
+.form-end button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .site-header nav {
+    gap: 0.75rem;
+  }
+
+  .site-header nav a {
+    font-size: 0.78rem;
+  }
+
+  .brand {
+    font-size: 1.5rem;
+  }
+
+  .order-page {
+    padding-block: 3.5rem 5rem;
+  }
+
+  .order-intro {
+    margin-bottom: 3rem;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .project-form legend {
+    font-size: 2.2rem;
+  }
+
+  .form-end {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
